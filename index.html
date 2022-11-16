@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS secrets</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
@@ -34,5 +34,43 @@
         <a href="#">animations</a>
       </li>
     </header>
+    <main>
+      <section>
+        <h2>Chapter 1</h2>
+        <button class="yes-1">Yes!</button>
+        <button class="yes-2">Yes!</button>
+        <button class="yes-3">Yes!</button>
+        <button class="ok-4">ok</button>
+        <button class="cancel-5">cancel</button>
+        <p><li>avoid needless media queries</li></p>
+        <p>
+          <li>
+            use percentages instead of fixed widths when thats not possible us
+            viewport relative units VW, VH, Vmin,Vmax
+          </li>
+        </p>
+        <p><li>use max-width instead of just width</li></p>
+        <p><li>set max-width of 100% on im,object,video, and iframe</li></p>
+        <p>
+          <li>
+            use background-size:cover; to meet container sizes with images.
+            warning this is not always wise due to scaling down to css in mobile
+            designs.
+          </li>
+        </p>
+        <p>
+          <li>
+            We should be careful about using short hand options for future
+            proofing such as background and background-color you may be
+            introducing bugs by using shorthand though order of properties are
+            important in this instance the shorthand will overwrite the longhand
+            because they can contain extra properties.
+          </li>
+        </p>
+        <i>css secrets page16</i>
+      </section>
+
+      <hr />
+    </main>
   </body>
 </html>
