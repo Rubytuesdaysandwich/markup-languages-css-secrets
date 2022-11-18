@@ -3,6 +3,19 @@ html {
   font-size: 16px; /*rem are set to the root font size of of the root parent which is the html*/
   /* em bases its size based on its parents size and the item can compound bigger and bigger from parent to parent */
 }
+/* the background continues after the border */
+body {
+  background-color: rgb(230, 180, 180);
+  border: 10px dashed hsla(123, 67%, 47%, 0.5);
+  padding: 1rem;
+  background-clip: padding-box;
+}
+main {
+  border: 10px dashed hsla(0, 67%, 47%, 0.5);
+  background-clip: border-box;
+  padding: 2em;
+  font-size: 1em;
+}
 
 .yes-1 {
   padding: 6px;
@@ -64,9 +77,3 @@ hr {
   background: currentColor;
 }
 /*using the inherit on A tag */
-a {
-  color: inherit;
-  font: inherit;
-  font-size: larger;
-  text-decoration: none;
-}
