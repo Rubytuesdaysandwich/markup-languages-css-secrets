@@ -28,6 +28,10 @@ h1 {
 }
 
 .logo {
-  background-image: url(../imgs/logo.png) no-repeat bottom right;
-  background-position: right 20px bottom 10px;
+  outline: 2px solid red;
+  padding: 20em;
+  background-image: url(../imgs/logo.png);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: center right;
 }
